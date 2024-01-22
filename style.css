@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: rgb(240, 177, 93);
+  /* height: 100vh; */
+  width: 100vw;
+  border: 1em solid rgb(0, 0, 0);
+}
+.First_section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 7em;
+}
+.First_section h1 {
+  font-size: 3em;
+  font-weight: bolder;
+}
+.First_section h5 {
+  font-size: larger;
+  font-weight: bold;
+  text-align: end;
+}
+.content {
+  max-width: 60rem;
+  margin: 0 auto;
+  /* background-color: rgb(192, 192, 215); */
+}
+.image_div img {
+  height: 20em;
+  width: 25em;
+  border-radius: 50%;
+  border: 0.5em solid black;
+}
+.about_section h2 {
+  font-size: 3em;
+  font-weight: bolder;
+  margin: 0.5em 0;
+}
+p,li{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+    
+}
+.about_section p span {
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+}
+.movies_section h2 {
+  font-size: 3em;
+  font-weight: bolder;
+  margin: 0.5em 0;
+}
+.movies_section p span {
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+}
+.books_section h2{
+    font-size: 3em;
+  font-weight: bolder;
+  margin: 0.5em 0;
+}
+.books_section ul{
+    margin-bottom: 3em;
+    padding: 0 2em;
+}
+footer p{
+    margin: 2em;
+    text-align:right;
+}
+footer p a{
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    color: brown;
+   
+}
